@@ -1,0 +1,30 @@
+.pageWrapper {
+    padding: 30px;
+    margin:30px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+  border-radius: 15px;
+}
+
+.cardContainer {
+    margin: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f3f2f2;
+}
+
+.cardContainer:hover {
+    border-image: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8b00ff) 1;
+}
+
+.pageWrapper:hover {
+    transition: transform 0.3s ease;
+    border-image: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8b00ff) 1;
+}

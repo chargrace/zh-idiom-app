@@ -4,7 +4,6 @@ import { readData } from "./helperFunction";
 async function getAllEntries () {
     const allIdiomData = await readData();
     return allIdiomData;
-    console.log(allIdiomData);
 }
 
 //Get entry by id

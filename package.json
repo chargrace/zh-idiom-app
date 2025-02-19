@@ -7,12 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type": "module"
+    "type": "module",
+    "serve": "ts-node --loader ts-node/esm"
   },
   "dependencies": {
     "ejs": "^3.1.10",
-    "fs": "^0.0.1-security",
     "express": "^4.21.2",
+    "fs": "^0.0.1-security",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -24,6 +25,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   },
   "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",

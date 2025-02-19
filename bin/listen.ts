@@ -1,7 +1,7 @@
 // Import app module from parent directory using commonJS notation
 import app from '../app'
 
-const port = 3001;
+const port = 4000;
 
 // start server and listen on defined port
 
